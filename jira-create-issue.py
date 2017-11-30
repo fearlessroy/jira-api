@@ -27,13 +27,13 @@ param2 = {
             },
         "summary": "create jira issue",  # title
         "description": "创建一个JIRA问题",
-        "customfield_10003": "customfield_10003",  # jest jira
         "issuetype": {
             "name": "缺陷"
         },
         "customfield_10000": "GITHUB",  #
-        "customfield_10002": "PYTHON-JIRA-CODE",  #
-        'customfield_10001': "JIRA-GITHUB",
+        "customfield_10001": "PYTHON-JIRA-CODE",  #
+        'customfield_10002': "JIRA-GITHUB",
+        "customfield_10003": "customfield_10003",  # test jira
     }
 }
 header2 = {'content-type': 'application/json', 'Authorization': 'Basic amlyYTpnaXRodWJfamlyYQ==',  # admin:aispeech
